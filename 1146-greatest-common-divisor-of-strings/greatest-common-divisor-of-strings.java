@@ -10,6 +10,6 @@ class Solution {
             b =a%b;
             a=r;
         }
-    return str2.substring(0,a);
+    return str1.substring(0,a);
     }
 }
