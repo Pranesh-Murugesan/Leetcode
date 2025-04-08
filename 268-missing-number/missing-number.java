@@ -6,7 +6,6 @@ class Solution {
     for (int i =0;i<n;i++){
         count+= nums[i];
     }
-    int missNumber = sum - count;
-    return missNumber;
+    return sum - count;
     }
 }
