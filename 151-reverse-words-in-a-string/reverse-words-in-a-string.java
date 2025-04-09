@@ -1,6 +1,6 @@
 class Solution {
     public String reverseWords(String s) {
-        String [] words = s.split(" +");
+        String [] words = s.trim().split(" +");
         String reverseString = "";
         for(int i=words.length-1;i>=0;i--){
             reverseString = reverseString+ words[i];
@@ -9,6 +9,6 @@ class Solution {
             }
             
         }
-        return reverseString.trim();
+        return reverseString;
     }
 }
